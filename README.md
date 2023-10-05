@@ -214,7 +214,7 @@ axios.get('/user', {
 
 ## Style 
 
-### [animate.css] (https://animate.style/) 
+### [animate.css](https://animate.style/) 
 
 ```bash
 npm i animate.css
