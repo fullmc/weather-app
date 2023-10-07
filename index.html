@@ -7,14 +7,54 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
-    <title>Boilerplate</title>
+    <title>Weather app</title>
   </head>
   <body>
-    <h1 class="animate__animated animate__flipInX" >Here's a template to start your new project !</h1>
+      <div class="search">
+        <header>
+            <h1>Weather in time</h1>
+        </header>
+        <form>
+          <div class="input-group">
+            <input type="text" id="input-city" placeholder="Rechercher une ville ...">
+          </div>
+        </form>
+    
+        <main>
+          <div class="city-temp">
+            <div>
+              <div id="city"></div>  
+              <div id="temp"></div>
+            </div>
+            <div>
+              <img id="weather-icon" src="" alt=""> 
+            </div>
+          </div>  
+          <div id="feels"></div> 
+          
+          <div class="details">
+            <div class="humide">
+              <img src="img/humidity.png" alt="" class="humind">
+              <div>
+                <p>Humidité :</p>
+                <p id="humidity"></p>
+              </div>
+            </div>
+    
+            <div class="windy">
+              <img src="img/wind.png" alt="" class="humind">
+              <div>
+                <p>Vent :</p>
+                <p id="wind"></p>
+              </div>
+            </div>
+    
+          </div>
+        </main>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script type="module" src="main.js"></script> <!--Allows export/import modules-->
 
   </body>
-
 </html>
