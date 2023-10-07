@@ -31,11 +31,6 @@ npm init
 ```
 Cette commande va générer un fichier `package.json`
 
-### Vue
-```
-npm install vue
-```
-
 ### Vite
 ```
 npm install vite
@@ -97,7 +92,6 @@ test('adds 1 + 2 to equal 3', () => {
 ## Tech Stack
 
 #### Client:
-- VueJS
 - ViteJS
 
 #### Code formatter: 

@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  font-weight: 400;
+  box-sizing: border-box;
+  height: 100vh;
+  background: linear-gradient(135deg, #ABC6CA, #83C9D1, #df893f);
+  background-size: 200% 200%; 
+  animation: gradientAnimation 2s forwards infinite; 
+  transition: 10s ease-in-out; 
+  display: grid;
+  place-items: center;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  25% {
+    background-position: 50% 100%;
+  }
+  0% {
+    background-position: 0% 0%;
+  }
+}
+
+.animate__animated.animate__flipInX{
+  --animate-duration: 2s;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 100;
+  line-height: 1.2;
+  text-align: center;
+}
+
